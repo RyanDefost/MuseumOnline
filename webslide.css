@@ -1,3 +1,11 @@
 body{
     background-color: white;
 }
+
+.container{
+    width: 2160px;
+    margin: 0 auto;
+    min-height: 4320px;
+    background-image: URL('../background image/Achtergrond_LAM.png');
+    color: white;
+}
