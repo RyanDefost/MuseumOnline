@@ -6,10 +6,48 @@ body{
     font-size: 23px;
 }
 h3{
-    color: white;
+    color: rgb(255, 255, 255);
+    background-color: rgb(29, 81, 53);
+    padding: 40px;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    opacity: 90%;
 }
 
+h2{
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 5.5cm;
+}
 
+.balk{
+    width: 1920px;
+    margin: auto;
+    min-height: 20px;
+
+}
+
+.infoBlock{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 1170px;
+    height: 326px;
+    border-radius: 75px;
+    background-color: rgb(255, 255, 255);
+    opacity: 90%;
+}
+
+.textColor{
+    color: black;
+    font-size: 30px;
+}
 
 .container{
     width: 1920px;
