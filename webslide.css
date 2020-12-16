@@ -1,5 +1,5 @@
 html{
-
+    width: 1519.2px;
 }
 
 body{
@@ -13,7 +13,9 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     width: 1519.2px;
+    
 }
+
 .balk h3{
     color: rgb(255, 255, 255);
     background-color: rgb(29, 81, 53);
@@ -45,6 +47,7 @@ h2{
     min-height: 20px;
 
 }
+
 
 .infoBlock{
     position: relative;
