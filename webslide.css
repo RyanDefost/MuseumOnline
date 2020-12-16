@@ -12,7 +12,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1266.4px;
+    width: 1519.2px;
 }
 .balk h3{
     color: rgb(255, 255, 255);
@@ -32,6 +32,7 @@ h3{
 
 h2{
     color: rgb(255, 255, 255);
+    margin: auto;
     font-size: 100px;
     padding-left: 512px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -39,7 +40,7 @@ h2{
 }
 
 .balk{
-    width: 1266.4px;
+    width: 1519.2px;
     margin: auto;
     min-height: 20px;
 
