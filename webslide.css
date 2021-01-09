@@ -17,15 +17,38 @@ body{
     
 }
 
+.balk{
+    background-color: rgb(29, 81, 53);
+    opacity: 90%;
+    display:inline;
+}
+
+.button{
+    padding: 32px;
+    text-align: center;
+}
+
+.button1{
+    background-color: rgb(255, 255, 255);
+    border-style: groove;
+    border: black 2px solid;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 40px;
+    width: 100px;
+}
+
 .balk h3{
     color: rgb(255, 255, 255);
     background-color: rgb(29, 81, 53);
     padding: 20px;
+    padding-right: 0%;
     margin: auto;
     text-align: left;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 40px;
-    opacity: 90%;
+    border-bottom: black 2px solid;
 }
 
 h3{
@@ -41,7 +64,7 @@ h2{
     padding-left: 512px;
     padding-right: 512px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-top: 5.5cm;
+    margin-top: 2.5cm;
 }
 
 .balk{
