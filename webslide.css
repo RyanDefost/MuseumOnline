@@ -79,10 +79,11 @@ h2{
     position: relative;
     align-self: center;
     text-align: center;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.507);
     margin: auto;
     width: 1170px;
     height: 1534px;
-    /* border-radius: 75px; */
+    border-radius: 20px;
     background-color: rgb(255, 255, 255);
     opacity: 90%;
     padding: 10px;
@@ -96,8 +97,8 @@ h2{
 }
 
 /* .WebXRblock{ */
-    position: relative;
-    text-align: center;
+    /* position: relative; */
+    /* text-align: center; */
     margin: auto;
     margin-top: 50px;
     width: 1170px;
