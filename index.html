@@ -5,34 +5,63 @@
     <meta name="viewport">
     <title>museumonline beroepsopdracht coming soon</title>
     <link rel="stylesheet" href="webslide.css">
+    <script src="library/aframe.js"></script>
+    <script src="library/ma-webxr.js" defer></script>
+    <script src="app.js" defer></script>
+    <style>
+        a-scene {
+          width:700px;
+          height:400px;
+          /* margin-top: 500px; */
+          margin: 245px;
+          box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.507);
+        }
+      </style>
 </head>
 <body.disabled>
 
     <!-- hier begint de opbouw -->
         <div class = "balk">
-            <h3>WebXR*</h3>
+            <h3>LAM</h3>
         </div>
 
-        <h2>WebXR<br>Museum</h2>
-        <div class="button">
-            <button class="button1" type = "tickets"><strong>tickets</strong></button>
-            <button class="button1" type = "Over ons"><strong>over ons</strong></button>
-            <button class="button1" type = "VR"><strong>VR</strong></button>
+        <h2>Lisse art<br>Museum</h2>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="https://www.lamlisse.nl/tickets/">tickets</a></li>
+                    <li><a href="#over ons">over Ons</a></li>
+                    <li><a href="#VR">VR</a></li>
+                </ul>
+            </nav>
+            <!-- class="button" -->
+            <!-- <button class="button1" type = "#tickets" onclick=""><strong>tickets</strong></button>
+            <button class="button1" type = "#Over ons"><strong>over ons</strong></button>
+            <button class="button1" type = "#VR"><strong>VR</strong></button> -->
         </div>
 
-            <div class = "infoBlock">
-                <p class="textColor">Ons Project. <br>
-                    Dan zal er hier een text staan over de obdracht en wat we gedaan hebben voor 
-                    nu staat hier dan geweeon text die niet klopt of nergen s op slaat die doe ik om 
-                    tex op te vullen.
-                    hiermee ga ik het idee laten zien w=hoe het er uit ziet met text.</p>
-            </div>
+        <div id="over ons" class = "infoBlock">
+            <section>
+                <p><strong>Over ons</strong><br>
+                Deze website is gemaakt door 2 studenten van het Media College in Amsterdam, voor de beroepsopdracht 'MuseumOnline'. 
+                <br><br><strong>De opdracht</strong><br>
+                Voor deze opdracht  moest er een website gamaakt worden met HTML en CSS. binnen deze website moest er gebruik gemaakt worden van de lessen van de afgelope piriode.
+                Als laatste moets er gebruik gemaakt worden van WebXR om een VR element toe te voegen.
+                <br><br><strong>WebXR</strong><br>
+                WebXR is een script waarmee uw gemakkelijk en snel een VR (virtual reality) kunt toevoegen binnen uw website.
 
-            <div style=float:left;>
+                </p>
+            </section>
+
+            <div id="VR" class="webXR">
+                <p><strong>VR omgeving</strong></p>
                 <!-- Hier begint het WebXR component -->
-                <a-scene background="color: white" embedded></a-scene>
+                <section>
+                    <a-scene background="color: white" embedded></a-scene>
+                </section>
                 <!-- Hier eindigt het WebXR component -->
-            </div>
+            </div>    
+        </div>
 
         <div class = "onderbalk">
 
