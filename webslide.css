@@ -8,7 +8,7 @@ body{
     background-color: rgb(0, 0, 0);
     font-family: sans-serif;
     font-size: 23px;
-    background-image: URL('../background image/Achtergrond_LAM.png');
+    background-image: URL('background image/Achtergrond_LAM.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -104,15 +104,13 @@ h2{
     width: 1170px;
     height: 1534px;
     border-radius: 20px;
-    background-color: rgb(255, 255, 255);
-    opacity: 90%;
+    background-color: rgba(255, 255, 255, 0.90);
     padding: 10px;
     margin-top: 50px;
 }
 
 .infoBlock p{
     padding: 20px;
-    /* padding-bottom: 360px; */
     border-radius: 20px;
     border: black 5px double;
     margin-left: 23px;
@@ -137,6 +135,11 @@ h2{
     margin-right: none;
     color: none;
     font-size: 40px;
+}
+
+.webXR h6{
+    position: relative;
+    bottom: 340px;
 }
 
 .onderbalk{
