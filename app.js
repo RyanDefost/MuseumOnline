@@ -4,25 +4,18 @@ controls.enableMovement();
 
 // create a model
 const melkMeisje = new Model('assets/models/vermeer/export_museumprops.babylon.gltf');
-melkMeisje.setPosition(-0.293, -0.05, -2.57);
+melkMeisje.setPosition(-6.396, 0.104, -8.750);
 melkMeisje.setScale(100, 100, 100);
 melkMeisje.setRotation(0, 45.45, 0);
 
 // create a model
 const cuberoom = new Model('assets/models/cube-room/cube-room.gltf');
-cuberoom.setPosition(0, 0, 0);
-cuberoom.setScale(-.5, 0.5, 0.5);
+cuberoom.setPosition(-1.827, 0.043, -0.427);
+cuberoom.setScale(-2.636, 0.690, 1.485);
 cuberoom.setRotation(-0.76, -36.95, 0);
 
-
-// create a primitive (sphere)
-const sphere = new Sphere();
-sphere.setColor('green');
-sphere.setRadius(0.5);
-sphere.setPosition(-3, 0, -5);
-
 // create some text
-const lamText = new Text('Lisser Art Museum');
+const lamText = new Text('Lisse Art Museum');
 lamText.setPosition(-0.1, 2.2, -2.9);
 lamText.setFontsize(10);
 lamText.setScale(0.5, 0.5, 0.5)
@@ -30,19 +23,19 @@ lamText.setRotation(0, -38, 0);
 
 // create an image
 const image1 = new XRImage('assets/images/Lisse-049.jpg');
-image1.setPosition(-1.4, 1.9, -1.4);
+image1.setPosition(-13.951, 2.056, -3.035);
 image1.setRotation(-0.74, 43, 178);
 image1.setScale(1.5, 1.5, 1.5);
 
 // create an imageí
 const image2 = new XRImage('assets/images/FolkertdeJong.jpg');
-image2.setPosition(2, 1.9, -1);
+image2.setPosition(4.139, 1.900, -3.642);
 image2.setRotation(0, -39, -1);
 image2.setScale(1.5, 1.5, 1.5);
 
 // create an imageí
 const image3 = new XRImage('assets/images/Lisse-043.jpg');
-image3.setPosition(2.1, 1.9, 0.7);
+image3.setPosition(7.828, 1.900, 5.017);
 image3.setRotation(0, -127, 0);
 image3.setScale(1.5, 1.5, 1.5);
 
@@ -51,7 +44,7 @@ image3.setScale(1.5, 1.5, 1.5);
 const image360 = new Sky('assets/LamIngang.jpg');
 
 const spotLight = new SpotLight();
-spotLight.setPosition(-1, 2, 3.7);
+spotLight.setPosition(-12.10, 35.035, 13.183);
 spotLight.setTarget(melkMeisje);
 
 // listen for an event
