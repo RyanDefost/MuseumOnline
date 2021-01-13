@@ -1,5 +1,6 @@
 html{
     width: 1519.2px;
+    
 }
 
 body{
@@ -12,19 +13,23 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1519.2px;
-    max-height: 2160px;
+    width: 100%;
+    max-height: 100%;
     
 }
 
 .balk{
-    background-color: rgb(29, 81, 53);
     opacity: 90%;
     display:inline;
 }
 
 nav{
     text-align: center;
+    background-color: rgb(0, 0, 0, 0.5);
+    padding: 20px;
+    top: 0;
+    width: 100%
+    
 }
 
 nav ul {
@@ -36,7 +41,6 @@ nav ul {
 nav li {
     display:inline;
 
-    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.507);
     border-radius: 10px;
     margin: 20px;
     height: 80px;
@@ -44,10 +48,11 @@ nav li {
 }
 
 nav a{
+    
     background-color: white;
     border: black 2px solid;
-    border-radius: 10px;
     text-decoration: none;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.507);
     color: black;
     padding: 10px;
     text-align: center;
@@ -79,8 +84,8 @@ h2{
     margin: auto;
     text-align: center;
     font-size: 100px;
-    padding-left: 512px;
-    padding-right: 512px;
+    padding-left: 312px;
+    padding-right: 312px;
     padding-bottom: 50px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 2.5cm;
@@ -103,14 +108,13 @@ h2{
     margin: auto;
     width: 1170px;
     height: 1534px;
-    border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.90);
+    background-color: rgba(255, 255, 255, 0.80);
     padding: 10px;
     margin-top: 50px;
 }
 
 .infoBlock p{
-    width:700px;
+    width:650px;
     height:150px;
     top: 50px;
     padding: 20px;
@@ -119,6 +123,7 @@ h2{
     margin-left: 235px;
     margin-right: 235px;
     color: black;
+    background-color: white;
     font-size: 30px;
 }
 
@@ -137,18 +142,19 @@ h2{
     padding-top: 0px;
     border-radius: none;
     border: none;
-    margin: 0 auto;
+    margin: 2px auto;
     margin-left: none;
     margin-right: none;
     color: none;
     font-size: 40px;
+    border: black 5px double;
     box-shadow: none;
     
 }
 
 .webXR h6{
     position: relative;
-    bottom: 340px;
+    bottom: 130px;
 }
 
 .onderbalk{
